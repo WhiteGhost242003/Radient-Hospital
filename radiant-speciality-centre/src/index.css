@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    @apply text-gray-800 bg-white;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-full font-medium hover:bg-blue-900 transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 inline-flex items-center gap-2;
+  }
+  .btn-secondary {
+    @apply bg-teal-500 text-white px-6 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 inline-flex items-center gap-2;
+  }
+  .btn-outline {
+    @apply border-2 border-primary text-primary px-6 py-3 rounded-full font-medium hover:bg-primary hover:text-white transition-all duration-300 inline-flex items-center gap-2;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-primary mb-3;
+    font-family: 'Playfair Display', serif;
+  }
+  .section-subtitle {
+    @apply text-teal-500 font-semibold text-sm uppercase tracking-widest mb-2;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
+  }
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #0F4C81; border-radius: 3px; }

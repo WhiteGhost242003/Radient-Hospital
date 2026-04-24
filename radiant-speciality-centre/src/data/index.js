@@ -1,0 +1,158 @@
+// doctors.js
+export const doctors = [
+  {
+    id: 1,
+    name: "Dr. Nikhil Dev",
+    qualification: "MBBS, D Ortho, DNB Ortho",
+    specialization: "Consultant Orthopaedic Surgeon",
+    phone: "7820930018",
+    department: "Orthopaedics",
+    experience: "10+ Years",
+    bio: "Specialist in joint replacement, arthroscopy, and sports medicine with a patient-first approach.",
+    avatar: null,
+  },
+  {
+    id: 2,
+    name: "Dr. Nitin Jhade",
+    qualification: "MBBS, MD Medicine, IDCCM",
+    specialization: "Consultant Physician & Intensivist",
+    phone: "8390354057",
+    department: "General Medicine",
+    experience: "12+ Years",
+    bio: "Expert in internal medicine and critical care with extensive ICU management experience.",
+    avatar: null,
+  },
+  {
+    id: 3,
+    name: "Dr. Shravani Dev",
+    qualification: "BDS, MDS",
+    specialization: "Dental Surgeon & Implantologist",
+    phone: "7757838776",
+    department: "Dental",
+    experience: "8+ Years",
+    bio: "Specialised in dental implants, cosmetic dentistry, and oral surgery with a gentle touch.",
+    avatar: null,
+  },
+  {
+    id: 4,
+    name: "Dr. Rucha Todkar",
+    qualification: "MBBS, MD Medicine",
+    specialization: "Consultant Physician & Diabetologist",
+    phone: "9518724640",
+    department: "General Medicine",
+    experience: "9+ Years",
+    bio: "Expert in diabetes management, lifestyle disorders, and preventive healthcare.",
+    avatar: null,
+  },
+];
+
+export const services = [
+  {
+    id: 1,
+    title: "General Medicine OPD",
+    description: "Comprehensive consultation for acute and chronic illnesses, fever, infections, and general health concerns.",
+    icon: "Stethoscope",
+    color: "blue",
+  },
+  {
+    id: 2,
+    title: "Orthopaedic OPD",
+    description: "Expert care for bone, joint, spine, and sports injuries with advanced diagnosis and treatment.",
+    icon: "Bone",
+    color: "teal",
+  },
+  {
+    id: 3,
+    title: "Dental Treatment",
+    description: "Complete dental solutions including fillings, extractions, crowns, implants, and cosmetic dentistry.",
+    icon: "Smile",
+    color: "blue",
+  },
+  {
+    id: 4,
+    title: "Complete Health Checkup",
+    description: "Comprehensive preventive health packages tailored for different age groups and lifestyle needs.",
+    icon: "ClipboardList",
+    color: "teal",
+  },
+  {
+    id: 5,
+    title: "Pharmacy",
+    description: "In-house pharmacy with a wide range of medicines, health supplements, and medical supplies.",
+    icon: "Pill",
+    color: "blue",
+  },
+  {
+    id: 6,
+    title: "Physiotherapy",
+    description: "Specialised rehabilitation for post-surgical recovery, sports injuries, and chronic pain management.",
+    icon: "Activity",
+    color: "teal",
+  },
+  {
+    id: 7,
+    title: "Diagnostic Services",
+    description: "Accurate and fast laboratory diagnostic tests with quick turnaround times and reliable results.",
+    icon: "FlaskConical",
+    color: "blue",
+  },
+  {
+    id: 8,
+    title: "ECG & Digital X-Ray",
+    description: "State-of-the-art digital imaging and cardiac monitoring for precise and rapid diagnostics.",
+    icon: "Heart",
+    color: "teal",
+  },
+  {
+    id: 9,
+    title: "Diet & Nutrition Counselling",
+    description: "Personalized nutrition plans and dietary guidance for weight management and chronic disease control.",
+    icon: "Apple",
+    color: "blue",
+  },
+  {
+    id: 10,
+    title: "Day Care Services",
+    description: "Minor surgical procedures and treatments done on a day-care basis without overnight hospital stay.",
+    icon: "Building2",
+    color: "teal",
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Ramesh Kulkarni",
+    role: "Patient",
+    rating: 5,
+    text: "Dr. Nikhil Dev is exceptional. My knee surgery went perfectly and recovery was smooth. The staff is warm and caring.",
+  },
+  {
+    id: 2,
+    name: "Priya Sharma",
+    role: "Patient",
+    rating: 5,
+    text: "Dr. Shravani did my dental implant with minimal discomfort. The clinic is very clean and well-equipped.",
+  },
+  {
+    id: 3,
+    name: "Suresh Patil",
+    role: "Patient",
+    rating: 5,
+    text: "Dr. Rucha Todkar helped me manage my diabetes effectively. Her guidance on diet and lifestyle has transformed my health.",
+  },
+];
+
+export const clinicInfo = {
+  name: "Radiant Speciality Centre",
+  tagline: "Trusted Healthcare for Your Family",
+  address: "1st Floor, Vyankateshwar Pearl, Belore Patil Properties, Jambhulwadi Road, Datta Nagar, Ambegaon BK, Pune - 411046",
+  phone: "7820930018",
+  whatsapp: "7820930018",
+  email: "info@radiantspecialitycentre.com",
+  timing: {
+    weekdays: "Monday to Saturday: 5:00 PM – 9:30 PM",
+    sunday: "Sunday: By Appointment",
+  },
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.7!2d73.85!3d18.46!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDI3JzQ1LjYiTiA3M8KwNTEnMDMuNiJF!5e0!3m2!1sen!2sin!4v1234567890",
+};
